@@ -1,16 +1,24 @@
 function sum(a, b) {
-  return;
+  a = (a) ? a : 0;
+  b = (b) ? b : 0;
+  return a + b;
 }
 
 function subtract(a, b) {
-  return;
+  a = (a) ? a : 0;
+  b = (b) ? b : 0;
+  return a - b;
 }
 
 function divide(a, b) {
-  return;
+  a = (a) ? a : IllegalArgumentException();
+  b = (b) ? b : IllegalArgumentException();
+  return a / b;
 }
 
 function multiply(a, b) {
+  a = (a) ? a : 0;
+  b = (b) ? b : 0;
   return a * b;
 }
 
